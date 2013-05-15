@@ -1,6 +1,6 @@
-(defproject lein-cucumber "1.0.2"
+(defproject lein-cucumber "1.0.2-mva1"
   :description "Run cucumber-jvm specifications with leiningen"
-  :dependencies [[info.cukes/cucumber-clojure "1.1.1"]
+  :dependencies [[info.cukes/cucumber-clojure "1.1.3"]
                  [leiningen-core "2.0.0"]
                  [org.clojure/clojure "1.5.0-RC3"]]
   :profiles {:cucumber {:dependencies [[commons-io "2.0"]]
